@@ -1,0 +1,28 @@
+<!--pages/strategy/strategy.wxml-->
+<!-- 轮播 -->
+<view class="lunbo">
+  <swiper autoplay="true" circular="true">
+    <!-- 循环获取轮播图片 -->
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 旅游攻略 -->
+<view class="card1">
+  <view class='card1-1f'>
+    <text>—</text> 旅游攻略 <text>—</text>
+  </view>
+  <view class="card1-2f">
+    <view bindtap='jumpdetail' wx:for="{{strategyList}}" wx:key="index" data-glid='{{item.glid}}'>
+      <image src='{{item.img}}'></image>
+      <view>{{item.title}}</view>
+    </view>
+  </view>
+</view>

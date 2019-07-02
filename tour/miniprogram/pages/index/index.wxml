@@ -1,0 +1,52 @@
+<!--pages/index/index.wxml-->
+<view class="card1">
+  <view class="card1-1f">
+    <image src='https://7778-wx-yohjq-1259432611.tcb.qcloud.la/tour/1-1.png?sign=dfd6eaa60a9a6049a1a33ffbc10afdef&t=1561706581'></image>
+  </view>
+  <view class="card1-2f">
+    <view class="c1-2f-l" bindtap='jump'>
+      <view>出境游</view>
+      <view class="text2">假期出境</view>
+      <image src='https://7778-wx-yohjq-1259432611.tcb.qcloud.la/tour/1-2.png?sign=31fd0aced77b28dda6c2fd78e6679b49&t=1561706617'></image>
+    </view>
+    <view class="c1-2f-c">
+      <view>国内游</view>
+      <view class="text2">走遍中国</view>
+      <image src='https://7778-wx-yohjq-1259432611.tcb.qcloud.la/tour/1-3.png?sign=cd7011206b5d89b8cd44e1cf1a286be6&t=1561706631'></image>
+    </view>
+    <view class="c1-2f-r">
+      <view>周边游</view>
+      <view class="text2">周末出游</view>
+      <image src='https://7778-wx-yohjq-1259432611.tcb.qcloud.la/tour/1-4.png?sign=a7a3a699af855aeae686f89814b1f901&t=1561706640'></image>
+    </view>
+  </view>
+</view>
+<!-- card2 -->
+<view class="card2">
+  <view class="card2-1f">
+    <text>—</text> 近期推荐 <text>—</text>
+  </view>
+  <!-- card2-2f -->
+  <scroll-view scroll-x class="scroll-header">
+  <!-- 循环获取点击前4的推荐 -->
+  <view class="scroll-view-item" bindtap='jumpplan' wx:for="{{recomendList}}" wx:key="index" data-tjid="{{item.tjid}}" data-id="{{item._id}}" data-count="{{item.count}}">
+    <image src='{{item.img}}'></image>
+    <view class="scroll-text">
+      <view>{{item.title}}</view>
+      <view>{{item.price}}</view>
+    </view>
+  </view>
+  </scroll-view>
+</view>
+<!-- card3 -->
+<view class="card3">
+  <view class="card3-1f">
+    <text>—</text> 旅游攻略 <text>—</text>
+  </view>
+  <view class="card3-2f">
+    <view bindtap='jumpdetail' wx:for="{{strategyList}}" wx:key="index" data-glid='{{item.glid}}'>
+      <image src='{{item.img}}'></image>
+      <view>{{item.title}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/strategy/strategy",
+    "pages/us/us",
+    "pages/plan/plan",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "旅行",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#3a82f8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index1.png",
+        "selectedIconPath": "images/index2.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐旅程",
+        "iconPath": "images/recommend1.png",
+        "selectedIconPath": "images/recommend2.png"
+      },
+      {
+        "pagePath": "pages/strategy/strategy",
+        "text": "旅游攻略",
+        "iconPath": "images/strategy1.png",
+        "selectedIconPath": "images/strategy2.png"
+      },
+      {
+        "pagePath": "pages/us/us",
+        "text": "关于我们",
+        "iconPath": "images/us1.png",
+        "selectedIconPath": "images/us2.png"
+      }
+    ]
+  }
+}

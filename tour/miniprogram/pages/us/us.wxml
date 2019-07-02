@@ -1,0 +1,52 @@
+<!--pages/us/us.wxml-->
+<!-- 轮播 -->
+<view class="lunbo">
+  <swiper autoplay="true" circular="true">
+    <!-- 循环获取轮播图片 -->
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 关于我们 -->
+<view class="card1">
+  <view class='card1-1f'>
+    <text>—</text> 关于我们 <text>—</text>
+  </view>
+  <view class="card1-2f">xxx国际旅行社有限公司成为一类国际旅游社，主营国内地接、入境接待国内出游、国际出境游、代办签证、修学旅行、商务考察、会务接待等业务项目，公司经营场所400平方米，在职职工100人，设有管理中心、财务中心、国内地接中心、国内出游中心、国际入境中心、中国公民出境中心、网络信息中心等。企业规模和经济实力以及经济效益已在xx市同行业排序前列。</view>
+  <view class="card1-3f">
+  <!-- left -->
+    <view>
+      <view class="c1-3f-t1">600+</view>
+      <view class="c1-3f-t2">不同定制线路</view>
+    </view>
+    <!-- center -->
+    <view>
+      <view class="c1-3f-t1">5w+</view>
+      <view class="c1-3f-t2">客户每年定制</view>
+    </view>
+    <!-- right -->
+    <view>
+      <view class="c1-3f-t1">40+</view>
+      <view class="c1-3f-t2">不同合作企业</view>
+    </view>
+  </view>
+</view>
+<!-- card2 -->
+<view class="card2">
+  <view class='card2-1f'>
+    <text>—</text> 关于我们 <text>—</text>
+  </view>
+  <view class="card2-2f">
+    <view class="phone">0000-00000000</view>
+    <view class="address">XXX省XXX市XXX县XXX路XXX号</view>
+    <view class="email">contact@fkadjkhsf.co</view>
+    <button>立即咨询</button>
+  </view>
+</view>

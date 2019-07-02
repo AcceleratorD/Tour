@@ -1,0 +1,57 @@
+/* pages/recommend/recommend.wxss */
+.lunbo{
+  text-align: center;
+}
+.lunbo>swiper{
+  height:400rpx;
+}
+.lunbo image{
+  width:100%;
+  height:400rpx;
+}
+/* card */
+.card1,
+.card2{
+  border-bottom: 15rpx solid #F4F4F4;
+  padding-bottom:20rpx;
+}
+.card3{padding-bottom:20rpx;}
+.card1-1f,
+.card2-1f,
+.card3-1f{
+  color:#656565;
+  text-align: center;
+  padding:40rpx 20rpx 20rpx 20rpx;
+  border-bottom: 3rpx solid #F4F4F4;
+  font-size: 15px;
+}
+.card1-1f>text{color:#ddd}
+.card1-2f{
+  padding-top:20rpx;
+  display: flex;
+  font-size: 14px;
+  color:#444;
+  flex-wrap: wrap;
+}
+.card1-2f>view{
+  margin: 0 0 30rpx 20rpx;
+  font-size: 13px;
+}
+.card1-2f>view>image{
+  width:345rpx;
+  height:260rpx;
+  border-radius: 10rpx
+}
+.c2-2f-1,
+.c3-2f-1{
+  padding:20rpx;
+  display: flex;
+  justify-content: space-between;
+  color:#444;
+  font-size: 13px;
+}
+.c2-2f-1>view>image,
+.c3-2f-1>view>image{
+  width:345rpx;
+  height:260rpx;
+}

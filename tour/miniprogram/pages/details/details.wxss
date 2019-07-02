@@ -1,0 +1,24 @@
+/* pages/details/details.wxss */
+/* pages/plan/plan.wxss */
+.lunbo{
+  text-align: center;
+}
+.lunbo image{
+  height:300rpx;
+}
+.detail-title{
+  color:#656565;
+  text-align: center;
+  padding:40rpx 20rpx 20rpx 20rpx;
+  border-bottom: 3rpx solid #F4F4F4;
+  font-size: 15px;
+}
+.detail-title>text{color:#ddd}
+.detail{
+  color:#656565;
+  margin: 20rpx;
+  font-size: 14px;
+}
+.detail-text{
+  text-align: center;
+}

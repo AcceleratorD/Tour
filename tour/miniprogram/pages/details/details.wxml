@@ -1,0 +1,34 @@
+<!--pages/details/details.wxml-->
+<!-- 轮播 -->
+<view class="lunbo">
+  <swiper autoplay="true" circular="true">
+    <!-- 循环获取轮播图片 -->
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 攻略详情 -->
+<view class='detail-title'>
+  <text>—</text> 攻略详情 <text>—</text>
+</view>
+<!-- 详细介绍 -->
+<view class="detail">
+  <view class="detail-text">{{text}}</view>
+  <view>◆第1天</view>
+  <view>首尔</view>
+  <view>今天坐飞机过来肯定特别的累，所以放下行李，收拾一下，就可以前往梨泰院啦。这里的各个国家的美食特别多，所以可以直接挑一家店就进去~尝试尝试新鲜的东西~</view>
+  <view>桃仙机场 09:00首尔国际机场 11:35</view>
+  <view>如果当天有更便宜的，请自行更改。</view>
+  <view>建议游玩时间3天</view>
+  <view>House Camping Guesthouse（豪斯宿营地旅馆）</view>
+  <view>这个旅馆，我是在booking上面帮你们找到的。但没有友人去住过，所以确切的信息得再需要去核实。价格还算合理，评价也还算高，所以可以再和老板联系一下，看评价说老板的英文很好，可以英文去交谈，100左右的住宿查找起来可能会难一些，所以要好好对比一下再决定。</view>
+  <view>梨泰院</view>
+  <view>梨泰院是大多数外国人的居住地。这里因为驻韩美军在这附近设置了军营，所以好多军眷都住在了这里，久而久之来韩国的外国人都集中在了这里，这里的衣服店、食品店，很多都是外国朋友在经营，而且菜单大多数都是韩文和英文两种，如果来这里逛一逛，看一看这里的文化，可以看见一个不同于其他地方的韩国。</view>
+</view>

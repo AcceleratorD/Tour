@@ -1,0 +1,75 @@
+/* pages/us/us.wxss */
+.lunbo{
+  text-align: center;
+}
+.lunbo>swiper{
+  height:400rpx;
+}
+.lunbo image{
+  width:100%;
+  height:400rpx;
+}
+.card1{
+  border-bottom: 15rpx solid #F4F4F4;
+}
+.card1-1f{
+  padding:40rpx 20rpx 20rpx 20rpx;
+}
+.card1-2f{
+  margin:20rpx;
+  font-size: 14px;
+  color:#606060;
+}
+.card1-3f{
+  margin: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.c1-3f-t1,
+.c1-3f-t2{
+  margin: 20rpx;
+}
+.c1-3f-t2{
+  font-size: 14px;
+  color:#606060;
+}
+/* card2 */
+.card2-1f{
+  padding:20rpx;
+}
+.card2-2f{
+  margin: 40rpx;
+  text-align: center;
+  font-size: 14px;
+  color:#606060;
+
+}
+.card2-2f>view{margin-bottom: 25rpx}
+.phone{
+  color: #3982F7;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: italic;
+}
+.card2-2f>button{
+  margin-top: 40rpx;
+  color: #fff;
+  width: 280rpx;
+  font-size: 14px;
+  background-color: #3982F7;
+}
+/* card1 card2 公共样式 */
+.card1,
+.card2{
+  padding-bottom:20rpx;
+}
+.card1-1f,
+.card2-1f{
+  color:#656565;
+  text-align: center;
+  border-bottom: 3rpx solid #F4F4F4;
+  font-size: 15px;
+}
+.card1-1f>text,
+.card2-1f>text{color:#ddd}

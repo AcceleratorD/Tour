@@ -1,0 +1,58 @@
+<!--pages/recommend/recommend.wxml-->
+<!-- 轮播 -->
+<view class="lunbo">
+  <swiper autoplay="true" circular="true">
+    <!-- 循环获取轮播图片 -->
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/2-1.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 出境游 -->
+<view class="card1">
+  <view class='card1-1f'>
+    <text>—</text> 出境游 <text>—</text>
+  </view>
+  <view class="card1-2f">
+    <view bindtap='jumpplan' wx:for="{{cjyList}}" wx:key="{{item.tjid}}" data-id="{{item._id}}" data-count="{{item.count}}" data-tjid="{{item.tjid}}">
+      <image src='{{item.img}}'></image>
+      <view>{{item.title}}</view>
+      <view>{{item.price}}</view>
+    </view>
+  </view>
+</view>
+<!-- 国内游 -->
+<view class="card2">
+  <view class='card2-1f'>
+    <text>—</text> 国内游 <text>—</text>
+  </view>
+  <view class="card2-2f">
+    <view class="c2-2f-1">
+      <view bindtap='jumpplan' wx:for="{{gnyList}}" wx:key="{{item.tjid}}" data-id="{{item._id}}" data-count="{{item.count}}" data-tjid="{{item.tjid}}">
+        <image src='{{item.img}}'></image>
+        <view>{{item.title}}</view>
+        <view>{{item.price}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="card3">
+  <view class='card3-1f'>
+    <text>—</text> 周边游 <text>—</text>
+  </view>
+  <view class="card3-2f">
+    <view class="c3-2f-1">
+      <view bindtap='jumpplan' wx:for="{{zbyList}}" wx:key="{{item.tjid}}" data-id="{{item._id}}" data-count="{{item.count}}" data-tjid="{{item.tjid}}">
+        <image src='{{item.img}}'></image>
+        <view>{{item.title}}</view>
+        <view>{{item.price}}</view>
+      </view>
+    </view>
+  </view>
+</view>

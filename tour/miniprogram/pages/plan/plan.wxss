@@ -1,0 +1,29 @@
+/* pages/plan/plan.wxss */
+.lunbo{
+  text-align: center;
+}
+.lunbo image{
+  height:300rpx;
+}
+.plan-title{
+  color:#656565;
+  text-align: center;
+  padding:40rpx 20rpx 20rpx 20rpx;
+  border-bottom: 3rpx solid #F4F4F4;
+  font-size: 15px;
+}
+.plan-title>text{color:#ddd}
+.plan-detail{
+  color:#656565;
+  margin: 30rpx 20rpx 80rpx 20rpx;
+  font-size: 14px;
+}
+.next{
+  color:#656565;
+  margin:20rpx 0;
+}
+button{
+  background-color: #3A82F8;
+  color:#fff;
+}
+.plan-text{text-align: center;}
